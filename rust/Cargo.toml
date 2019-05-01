@@ -1,0 +1,24 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Jannik Keye <jannik.keye@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "beer-song",
+    "hello-world",
+    "leap",
+    "nth-prime",
+    "raindrops",
+    "reverse-string",
+    "proverb",
+    "gigasecond",
+    "difference-of-squares",
+    "sum-of-multiples",
+    "grains",
+    "prime-factors",
+    "bob",
+    "armstrong-numbers",
+    "clock",
+]
