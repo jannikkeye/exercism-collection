@@ -15,9 +15,6 @@ fn resolve_minutes(minutes: i32) -> (i32, i32) {
     } else if minutes < 0 && resolved_minutes != 0 {
         resolved_hours -= 1;
         resolved_minutes += 60;
-    } else if minutes < 0 && resolved_minutes < 0 {
-        resolved_hours -= 1;
-        resolved_minutes = 0;
     }
 
     (resolved_hours, resolved_minutes)
