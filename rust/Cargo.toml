@@ -21,4 +21,5 @@ members = [
     "bob",
     "armstrong-numbers",
     "clock",
+    "matching-brackets"
 ]
